@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://kit.fontawesome.com/09446dd6c3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@200;400;600;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/css/style.min.css" />
+
+    <title>Jay - Contact</title>
+</head>
+<body>
+    <header class="header__sections">
+        <div class="pageTransition"></div>
+
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="drop"></div>
+            <div class="drop"></div>
+            <div class="drop"></div>
+            <div class="drop"></div>
+            <div class="drop"></div>
+            <div class="drop"></div>
+            <div class="drop"></div>
+            <div class="drop"></div>
+        </div>
+
+        <div class="circle"></div>
+        <div class="circle"></div>
+
+        <div class="popup">
+            <p>Message sent successfully!</p>
+            <button class="close">OK <i class="fa-solid fa-check"></i></button>
+        </div>
+
+        <div class="projects section">
+            <div class="section__title">
+                <h2>CONTACT</h2>
+                <p>CONTACT</p>
+            </div>
+
+            <div class="projects__contact">
+
+                <div class="projects__contact-form">
+                    <form action="https://formspree.io/f/xaygepkv" method="POST">
+                        <div class="projects__contact-input">
+                            <input type="text" name="name" placeholder="Enter Your Name" required />
+                            <p class="error-text">Name</p>
+                        </div>
+
+                        <div class="projects__contact-input">
+                            <input type="email" name="email" placeholder="Enter Your Email" required />
+                            <p class="error-text">Email</p>
+                        </div>
+
+                        <div class="projects__contact-input">
+                            <input type="text" name="subject" placeholder="Enter Subject" required />
+                            <p class="error-text">Subject</p>
+                        </div>
+
+                        <div class="projects__contact-input">
+                            <textarea name="msg" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+                            <p class="error-text">Message</p>
+                        </div>
+
+                        <div class="submit">
+                            <button class="btn-pink submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div class="nav">
+                <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                <a href="projects.html"><i class="fa-solid fa-toolbox"></i></a>
+                <a href="contact.html" class="nav__active"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
